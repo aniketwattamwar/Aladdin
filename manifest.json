@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Aladdin",
+  "description": "Opening multiple links with one click.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "storage"	
+   ]
+}
